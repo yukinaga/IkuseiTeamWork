@@ -43,7 +43,7 @@ static KobCharacterManager *sharedData_ = nil;
 //発生頻度
 -(void)doAction{
     static const int generationInterval = 40;
-    static const int charaSpeed = 1.0;
+    static const int charaSpeed = 10;
     
     //発生
     if(generationCount > generationInterval){
@@ -85,8 +85,22 @@ static KobCharacterManager *sharedData_ = nil;
         aCIV.count++;
         
         //壁で反射
-        [self reflection:aCIV];
+        //[self reflection:aCIV];
         
+        //壁に刺さる
+        if (aCIV.center.x < 10) {
+            aCIV.speed = CGVectorMake(0, 0);
+        }
+        if (aCIV.center.x > ScreenW-10) {
+            aCIV.speed = CGVectorMake(0, 0);
+        }
+        if (aCIV.center.y< 10) {
+            aCIV.speed = CGVectorMake(0,0);
+        }
+        if (aCIV.center.y >  ScreenH-10){
+            aCIV.speed = CGVectorMake(0, 0);
+        }
+
         //移動
         aCIV.center = CGPointMake(aCIV.center.x+aCIV.speed.dx,
                                   aCIV.center.y+aCIV.speed.dy);

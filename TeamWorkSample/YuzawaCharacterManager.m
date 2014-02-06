@@ -40,8 +40,8 @@ static YuzawaCharacterManager *sharedData_ = nil;
 
 //発生頻度
 -(void)doAction{
-    static const int generationInterval = 10;
-    static const int charaSpeed = 10.0;
+    static const int generationInterval = 40;
+    static const int charaSpeed = 1.0;
     
     //発生
     if(generationCount > generationInterval){
@@ -53,7 +53,7 @@ static YuzawaCharacterManager *sharedData_ = nil;
         [self.vC.view addSubview:aCIV];
         aCIV.transform = CGAffineTransformMakeScale(0, 0);
         [UIView animateWithDuration:0.5 animations:^{
-            aCIV.transform = CGAffineTransformMakeScale(1.0, 1.0);
+            aCIV.transform = CGAffineTransformMakeScale(2.0, 5.0);
         }completion:^(BOOL finished){
             [self.charaArray addObject:aCIV];
         }];

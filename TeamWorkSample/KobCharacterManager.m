@@ -29,7 +29,7 @@ static KobCharacterManager *sharedData_ = nil;
     self = [super init];
     if (self) {
         //発生地点
-        self.gPoint = CGPointMake(ScreenW*0.9, ScreenH*0.1);
+        self.gPoint = CGPointMake(ScreenW*0.1, ScreenH*0.5);
         //スコアに登録
         self.charaImage = [UIImage imageNamed:@"Kob.png"];
         self.charaDataArray = @[self.charaImage, self.charaArray];

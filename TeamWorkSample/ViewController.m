@@ -16,6 +16,8 @@
 
 @interface ViewController ()
 
+
+
 @end
 
 @implementation ViewController
@@ -29,6 +31,7 @@
     [AzumaCharacterManager sharedManager].vC = self;
     [KaigeCharacterManager sharedManager].vC = self;
     [YuyaCharacterManager sharedManager].vC=self;
+
     
     
     //Delecate of score manager

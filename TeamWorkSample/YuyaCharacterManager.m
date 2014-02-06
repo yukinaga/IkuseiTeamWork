@@ -27,7 +27,7 @@ static YuyaCharacterManager *sharedData_ = nil;
     self = [super init];
     if (self) {
         //発生地点
-        self.gPoint = CGPointMake(ScreenW*0.5, ScreenH*0.5);
+        self.gPoint = CGPointMake(ScreenW*0.01, ScreenH*0.99);
         //スコアに登録
         self.charaImage = [UIImage imageNamed:@"risuo1.png"];
         self.charaDataArray = @[self.charaImage, self.charaArray];
@@ -40,8 +40,8 @@ static YuyaCharacterManager *sharedData_ = nil;
 
 //発生頻度
 -(void)doAction{
-    static const int generationInterval = 20;
-    static const int charaSpeed = 1.0;
+    static const int generationInterval = 40;
+    static const int charaSpeed = 1;
     
     //発生
     if(generationCount > generationInterval){
@@ -53,7 +53,7 @@ static YuyaCharacterManager *sharedData_ = nil;
         [self.vC.view addSubview:aCIV];
         aCIV.transform = CGAffineTransformMakeScale(0, 0);
         [UIView animateWithDuration:0.5 animations:^{
-            aCIV.transform = CGAffineTransformMakeScale(1.0, 1.0);
+            aCIV.transform = CGAffineTransformMakeScale(2.0, 2.0);
         }completion:^(BOOL finished){
             [self.charaArray addObject:aCIV];
         }];
@@ -80,16 +80,21 @@ static YuyaCharacterManager *sharedData_ = nil;
             aCIV.count = 0;
             continue;
         }
+        
+        
+        
+
         aCIV.count++;
         
         //壁で反射
-        [self reflection:aCIV];
+       // [self reflection:aCIV];
         
         //移動
         aCIV.center = CGPointMake(aCIV.center.x+aCIV.speed.dx,
                                   aCIV.center.y+aCIV.speed.dy);
     }
 }
+
 
 
 @end

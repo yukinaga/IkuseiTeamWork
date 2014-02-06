@@ -12,6 +12,9 @@
 #import "AzumaCharacterManager.h"
 #import "KaigeCharacterManager.h"
 #import "YuyaCharacterManager.h"
+#import "YuzawaCharacterManager.h"
+#import "KobCharacterManager.h"
+#import "OzawaCharacterManager.h"
 
 
 @interface ViewController ()
@@ -49,6 +52,10 @@
     [[AzumaCharacterManager sharedManager] doAction];
     [[KaigeCharacterManager sharedManager] doAction];
     [[YuyaCharacterManager sharedManager]doAction];
+    [[YuzawaCharacterManager sharedManager]doAction];
+    [[KobCharacterManager sharedManager] doAction];
+    [[OzawaCharacterManager sharedManager] doAction];
+
     
     //衝突
     [[CollisionManager sharedManager] collision];

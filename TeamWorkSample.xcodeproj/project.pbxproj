@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		108157A618A35D7500B480EB /* YuzawaCharacterImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 108157A518A35D7500B480EB /* YuzawaCharacterImageView.m */; };
+		108157A918A35D8700B480EB /* YuzawaCharacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 108157A818A35D8700B480EB /* YuzawaCharacterManager.m */; };
+		108157AC18A35F8A00B480EB /* ojisan.png in Resources */ = {isa = PBXBuildFile; fileRef = 108157AB18A35F8A00B480EB /* ojisan.png */; };
+		30AEE7A618A3651D0014BC88 /* OzawaCharacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AEE7A518A3651D0014BC88 /* OzawaCharacterManager.m */; };
+		30AEE7A918A365660014BC88 /* OzawaCharacterImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AEE7A818A365660014BC88 /* OzawaCharacterImageView.m */; };
+		30AEE7AD18A3677B0014BC88 /* ozawa.png in Resources */ = {isa = PBXBuildFile; fileRef = 30AEE7AC18A3677B0014BC88 /* ozawa.png */; };
 		4AEA7DD118A35780008D7859 /* YuyaCharacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA7DD018A35780008D7859 /* YuyaCharacterManager.m */; };
 		4AEA7DD418A357B3008D7859 /* YuyaCharacterImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA7DD318A357B3008D7859 /* YuyaCharacterImageView.m */; };
 		4AEA7DD718A35B00008D7859 /* risuo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEA7DD618A35B00008D7859 /* risuo1.png */; };
@@ -35,6 +41,9 @@
 		9271272F18A286CC00F5AC59 /* CollisionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271272E18A286CC00F5AC59 /* CollisionManager.m */; };
 		92B6571618A312E200A2CCB4 /* ScoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B6571518A312E200A2CCB4 /* ScoreManager.m */; };
 		92B6571818A32C0000A2CCB4 /* dummy.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B6571718A32C0000A2CCB4 /* dummy.png */; };
+		FAC1539118A35C2F002DAFE8 /* KobCharacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1539018A35C2F002DAFE8 /* KobCharacterManager.m */; };
+		FAC1539418A35CDC002DAFE8 /* KobCharacterImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1539318A35CDC002DAFE8 /* KobCharacterImageView.m */; };
+		FAC1539718A35FD2002DAFE8 /* Kob.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC1539618A35FD2002DAFE8 /* Kob.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		108157A418A35D7500B480EB /* YuzawaCharacterImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuzawaCharacterImageView.h; sourceTree = "<group>"; };
+		108157A518A35D7500B480EB /* YuzawaCharacterImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuzawaCharacterImageView.m; sourceTree = "<group>"; };
+		108157A718A35D8700B480EB /* YuzawaCharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuzawaCharacterManager.h; sourceTree = "<group>"; };
+		108157A818A35D8700B480EB /* YuzawaCharacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuzawaCharacterManager.m; sourceTree = "<group>"; };
+		108157AB18A35F8A00B480EB /* ojisan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ojisan.png; sourceTree = "<group>"; };
+		30AEE7A418A3651D0014BC88 /* OzawaCharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OzawaCharacterManager.h; sourceTree = "<group>"; };
+		30AEE7A518A3651D0014BC88 /* OzawaCharacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OzawaCharacterManager.m; sourceTree = "<group>"; };
+		30AEE7A718A365660014BC88 /* OzawaCharacterImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OzawaCharacterImageView.h; sourceTree = "<group>"; };
+		30AEE7A818A365660014BC88 /* OzawaCharacterImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OzawaCharacterImageView.m; sourceTree = "<group>"; };
+		30AEE7AC18A3677B0014BC88 /* ozawa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ozawa.png; sourceTree = "<group>"; };
 		4AEA7DCF18A35780008D7859 /* YuyaCharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuyaCharacterManager.h; sourceTree = "<group>"; };
 		4AEA7DD018A35780008D7859 /* YuyaCharacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuyaCharacterManager.m; sourceTree = "<group>"; };
 		4AEA7DD218A357B3008D7859 /* YuyaCharacterImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuyaCharacterImageView.h; sourceTree = "<group>"; };
@@ -91,6 +110,11 @@
 		92B6571418A312E200A2CCB4 /* ScoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreManager.h; sourceTree = "<group>"; };
 		92B6571518A312E200A2CCB4 /* ScoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreManager.m; sourceTree = "<group>"; };
 		92B6571718A32C0000A2CCB4 /* dummy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummy.png; sourceTree = "<group>"; };
+		FAC1538F18A35C2F002DAFE8 /* KobCharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KobCharacterManager.h; sourceTree = "<group>"; };
+		FAC1539018A35C2F002DAFE8 /* KobCharacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KobCharacterManager.m; sourceTree = "<group>"; };
+		FAC1539218A35CDC002DAFE8 /* KobCharacterImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KobCharacterImageView.h; sourceTree = "<group>"; };
+		FAC1539318A35CDC002DAFE8 /* KobCharacterImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KobCharacterImageView.m; sourceTree = "<group>"; };
+		FAC1539618A35FD2002DAFE8 /* Kob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kob.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +141,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		108157AA18A35F7D00B480EB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				108157AB18A35F8A00B480EB /* ojisan.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		4AEA7DD518A35A7B008D7859 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +271,11 @@
 		9271271918A2792200F5AC59 /* Yuz */ = {
 			isa = PBXGroup;
 			children = (
+				108157AA18A35F7D00B480EB /* Image */,
+				108157A718A35D8700B480EB /* YuzawaCharacterManager.h */,
+				108157A818A35D8700B480EB /* YuzawaCharacterManager.m */,
+				108157A418A35D7500B480EB /* YuzawaCharacterImageView.h */,
+				108157A518A35D7500B480EB /* YuzawaCharacterImageView.m */,
 			);
 			name = Yuz;
 			sourceTree = "<group>";
@@ -272,6 +309,11 @@
 		9271271D18A2794100F5AC59 /* Oz */ = {
 			isa = PBXGroup;
 			children = (
+				30AEE7A418A3651D0014BC88 /* OzawaCharacterManager.h */,
+				30AEE7A518A3651D0014BC88 /* OzawaCharacterManager.m */,
+				30AEE7A718A365660014BC88 /* OzawaCharacterImageView.h */,
+				30AEE7A818A365660014BC88 /* OzawaCharacterImageView.m */,
+				30AEE7AC18A3677B0014BC88 /* ozawa.png */,
 			);
 			name = Oz;
 			sourceTree = "<group>";
@@ -305,6 +347,11 @@
 		9271272118A2798800F5AC59 /* Kob */ = {
 			isa = PBXGroup;
 			children = (
+				FAC1538F18A35C2F002DAFE8 /* KobCharacterManager.h */,
+				FAC1539018A35C2F002DAFE8 /* KobCharacterManager.m */,
+				FAC1539218A35CDC002DAFE8 /* KobCharacterImageView.h */,
+				FAC1539318A35CDC002DAFE8 /* KobCharacterImageView.m */,
+				FAC1539518A35F75002DAFE8 /* image */,
 			);
 			name = Kob;
 			sourceTree = "<group>";
@@ -348,6 +395,14 @@
 				92B6571518A312E200A2CCB4 /* ScoreManager.m */,
 			);
 			name = Score;
+			sourceTree = "<group>";
+		};
+		FAC1539518A35F75002DAFE8 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1539618A35FD2002DAFE8 /* Kob.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,13 +481,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC1539718A35FD2002DAFE8 /* Kob.png in Resources */,
 				92463CE018A25EEF00D65922 /* Images.xcassets in Resources */,
+				108157AC18A35F8A00B480EB /* ojisan.png in Resources */,
 				92463D0B18A261DC00D65922 /* azuma.png in Resources */,
 				92463CD218A25EEF00D65922 /* InfoPlist.strings in Resources */,
 				9271272418A27D8500F5AC59 /* kaige.png in Resources */,
 				92B6571818A32C0000A2CCB4 /* dummy.png in Resources */,
 				92463CDB18A25EEF00D65922 /* Main.storyboard in Resources */,
 				4AEA7DD718A35B00008D7859 /* risuo1.png in Resources */,
+				30AEE7AD18A3677B0014BC88 /* ozawa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,15 +512,21 @@
 				92463D0518A2619A00D65922 /* AzumaCharacterManager.m in Sources */,
 				4AEA7DD118A35780008D7859 /* YuyaCharacterManager.m in Sources */,
 				92463CDE18A25EEF00D65922 /* ViewController.m in Sources */,
+				108157A618A35D7500B480EB /* YuzawaCharacterImageView.m in Sources */,
 				9271272F18A286CC00F5AC59 /* CollisionManager.m in Sources */,
 				9271272A18A27E7A00F5AC59 /* KaigeCharacterImageView.m in Sources */,
 				92463CFF18A2600500D65922 /* CharacterManager.m in Sources */,
+				30AEE7A918A365660014BC88 /* OzawaCharacterImageView.m in Sources */,
+				FAC1539418A35CDC002DAFE8 /* KobCharacterImageView.m in Sources */,
 				9271272718A27E0600F5AC59 /* KaigeCharacterManager.m in Sources */,
 				4AEA7DD418A357B3008D7859 /* YuyaCharacterImageView.m in Sources */,
 				92463CD818A25EEF00D65922 /* AppDelegate.m in Sources */,
+				108157A918A35D8700B480EB /* YuzawaCharacterManager.m in Sources */,
 				92B6571618A312E200A2CCB4 /* ScoreManager.m in Sources */,
+				FAC1539118A35C2F002DAFE8 /* KobCharacterManager.m in Sources */,
 				92463CD418A25EEF00D65922 /* main.m in Sources */,
 				92463D0218A2601D00D65922 /* CharacterIamgeView.m in Sources */,
+				30AEE7A618A3651D0014BC88 /* OzawaCharacterManager.m in Sources */,
 				92463D0818A261B500D65922 /* AzumaCharacterIamgeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

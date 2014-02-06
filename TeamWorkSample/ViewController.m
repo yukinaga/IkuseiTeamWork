@@ -22,6 +22,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];//
+    
+    ////松島
 	// Do any additional setup after loading the view, typically from a nib.
     
     //Delegate of characters

@@ -27,9 +27,9 @@ static YuyaCharacterManager *sharedData_ = nil;
     self = [super init];
     if (self) {
         //発生地点
-        self.gPoint = CGPointMake(ScreenW*0.25, ScreenH*0.25);
+        self.gPoint = CGPointMake(ScreenW*0.5, ScreenH*0.5);
         //スコアに登録
-        self.charaImage = [UIImage imageNamed:@"azuma.png"];
+        self.charaImage = [UIImage imageNamed:@"risuo1.png"];
         self.charaDataArray = @[self.charaImage, self.charaArray];
         [[ScoreManager sharedManager].allScoreArray addObject:self.charaDataArray];
         //発生カウント
@@ -40,7 +40,7 @@ static YuyaCharacterManager *sharedData_ = nil;
 
 //発生頻度
 -(void)doAction{
-    static const int generationInterval = 40;
+    static const int generationInterval = 20;
     static const int charaSpeed = 1.0;
     
     //発生

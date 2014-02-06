@@ -11,6 +11,7 @@
 #import "ScoreManager.h"
 #import "AzumaCharacterManager.h"
 #import "KaigeCharacterManager.h"
+#import "YuyaCharacterManager.h"
 
 
 @interface ViewController ()
@@ -27,6 +28,8 @@
     //Delegate of characters
     [AzumaCharacterManager sharedManager].vC = self;
     [KaigeCharacterManager sharedManager].vC = self;
+    [YuyaCharacterManager sharedManager].vC=self;
+    
     
     //Delecate of score manager
     [ScoreManager sharedManager].vC = self;
@@ -42,6 +45,7 @@
     //各キャラのムーブ
     [[AzumaCharacterManager sharedManager] doAction];
     [[KaigeCharacterManager sharedManager] doAction];
+    [[YuyaCharacterManager sharedManager]doAction];
     
     //衝突
     [[CollisionManager sharedManager] collision];

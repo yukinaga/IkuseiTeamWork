@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];///
+    [super viewDidLoad];///海下さんは卑猥です。
 	// Do any additional setup after loading the view, typically from a nib.
     
     //Delegate of characters

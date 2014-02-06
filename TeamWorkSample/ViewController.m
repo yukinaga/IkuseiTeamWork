@@ -7,6 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "CollisionManager.h"
+#import "ScoreManager.h"
+#import "AzumaCharacterManager.h"
+#import "KaigeCharacterManager.h"
+
 
 @interface ViewController ()
 
@@ -18,6 +23,31 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //Delegate of characters
+    [AzumaCharacterManager sharedManager].vC = self;
+    [KaigeCharacterManager sharedManager].vC = self;
+    
+    //Delecate of score manager
+    [ScoreManager sharedManager].vC = self;
+    
+    sTimer = [NSTimer scheduledTimerWithTimeInterval:0.02
+                                              target:self
+                                            selector:@selector(do:)
+                                            userInfo:nil
+                                             repeats:YES];
+}
+
+-(void)do:(NSTimer *)timer{
+    //各キャラのムーブ
+    [[AzumaCharacterManager sharedManager] doAction];
+    [[KaigeCharacterManager sharedManager] doAction];
+    
+    //衝突
+    [[CollisionManager sharedManager] collision];
+    
+    //スコア表示
+    [[ScoreManager sharedManager] displayScore];
 }
 
 - (void)didReceiveMemoryWarning

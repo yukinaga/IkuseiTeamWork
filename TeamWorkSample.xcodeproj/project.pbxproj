@@ -21,6 +21,17 @@
 		92463CE918A25EEF00D65922 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92463CCB18A25EEF00D65922 /* UIKit.framework */; };
 		92463CF118A25EEF00D65922 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92463CEF18A25EEF00D65922 /* InfoPlist.strings */; };
 		92463CF318A25EEF00D65922 /* TeamWorkSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92463CF218A25EEF00D65922 /* TeamWorkSampleTests.m */; };
+		92463CFF18A2600500D65922 /* CharacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92463CFE18A2600500D65922 /* CharacterManager.m */; };
+		92463D0218A2601D00D65922 /* CharacterIamgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92463D0118A2601D00D65922 /* CharacterIamgeView.m */; };
+		92463D0518A2619A00D65922 /* AzumaCharacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92463D0418A2619A00D65922 /* AzumaCharacterManager.m */; };
+		92463D0818A261B500D65922 /* AzumaCharacterIamgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92463D0718A261B500D65922 /* AzumaCharacterIamgeView.m */; };
+		92463D0B18A261DC00D65922 /* azuma.png in Resources */ = {isa = PBXBuildFile; fileRef = 92463D0A18A261DC00D65922 /* azuma.png */; };
+		9271272418A27D8500F5AC59 /* kaige.png in Resources */ = {isa = PBXBuildFile; fileRef = 9271272318A27D8500F5AC59 /* kaige.png */; };
+		9271272718A27E0600F5AC59 /* KaigeCharacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271272618A27E0600F5AC59 /* KaigeCharacterManager.m */; };
+		9271272A18A27E7A00F5AC59 /* KaigeCharacterImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271272918A27E7A00F5AC59 /* KaigeCharacterImageView.m */; };
+		9271272F18A286CC00F5AC59 /* CollisionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271272E18A286CC00F5AC59 /* CollisionManager.m */; };
+		92B6571618A312E200A2CCB4 /* ScoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B6571518A312E200A2CCB4 /* ScoreManager.m */; };
+		92B6571818A32C0000A2CCB4 /* dummy.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B6571718A32C0000A2CCB4 /* dummy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,25 @@
 		92463CEE18A25EEF00D65922 /* TeamWorkSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeamWorkSampleTests-Info.plist"; sourceTree = "<group>"; };
 		92463CF018A25EEF00D65922 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92463CF218A25EEF00D65922 /* TeamWorkSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamWorkSampleTests.m; sourceTree = "<group>"; };
+		92463CFD18A2600500D65922 /* CharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterManager.h; sourceTree = "<group>"; };
+		92463CFE18A2600500D65922 /* CharacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterManager.m; sourceTree = "<group>"; };
+		92463D0018A2601D00D65922 /* CharacterIamgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterIamgeView.h; sourceTree = "<group>"; };
+		92463D0118A2601D00D65922 /* CharacterIamgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterIamgeView.m; sourceTree = "<group>"; };
+		92463D0318A2619A00D65922 /* AzumaCharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AzumaCharacterManager.h; sourceTree = "<group>"; };
+		92463D0418A2619A00D65922 /* AzumaCharacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AzumaCharacterManager.m; sourceTree = "<group>"; };
+		92463D0618A261B500D65922 /* AzumaCharacterIamgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AzumaCharacterIamgeView.h; sourceTree = "<group>"; };
+		92463D0718A261B500D65922 /* AzumaCharacterIamgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AzumaCharacterIamgeView.m; sourceTree = "<group>"; };
+		92463D0A18A261DC00D65922 /* azuma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = azuma.png; sourceTree = "<group>"; };
+		9271272318A27D8500F5AC59 /* kaige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaige.png; sourceTree = "<group>"; };
+		9271272518A27E0600F5AC59 /* KaigeCharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaigeCharacterManager.h; sourceTree = "<group>"; };
+		9271272618A27E0600F5AC59 /* KaigeCharacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaigeCharacterManager.m; sourceTree = "<group>"; };
+		9271272818A27E7A00F5AC59 /* KaigeCharacterImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaigeCharacterImageView.h; sourceTree = "<group>"; };
+		9271272918A27E7A00F5AC59 /* KaigeCharacterImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaigeCharacterImageView.m; sourceTree = "<group>"; };
+		9271272D18A286CC00F5AC59 /* CollisionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionManager.h; sourceTree = "<group>"; };
+		9271272E18A286CC00F5AC59 /* CollisionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollisionManager.m; sourceTree = "<group>"; };
+		92B6571418A312E200A2CCB4 /* ScoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreManager.h; sourceTree = "<group>"; };
+		92B6571518A312E200A2CCB4 /* ScoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreManager.m; sourceTree = "<group>"; };
+		92B6571718A32C0000A2CCB4 /* dummy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +142,17 @@
 		92463CCD18A25EEF00D65922 /* TeamWorkSample */ = {
 			isa = PBXGroup;
 			children = (
-				92463CD618A25EEF00D65922 /* AppDelegate.h */,
-				92463CD718A25EEF00D65922 /* AppDelegate.m */,
-				92463CD918A25EEF00D65922 /* Main.storyboard */,
-				92463CDC18A25EEF00D65922 /* ViewController.h */,
-				92463CDD18A25EEF00D65922 /* ViewController.m */,
+				9271272B18A2869A00F5AC59 /* Common */,
+				92463CFC18A25F3600D65922 /* Az */,
+				9271272018A2797900F5AC59 /* Kai */,
+				9271272118A2798800F5AC59 /* Kob */,
+				9271271F18A2797300F5AC59 /* Shim */,
+				9271271E18A2796600F5AC59 /* Tag */,
+				9271271D18A2794100F5AC59 /* Oz */,
+				9271271C18A2793700F5AC59 /* Mats */,
+				9271271B18A2793000F5AC59 /* Toyo */,
+				9271271A18A2792800F5AC59 /* Iwas */,
+				9271271918A2792200F5AC59 /* Yuz */,
 				92463CDF18A25EEF00D65922 /* Images.xcassets */,
 				92463CCE18A25EEF00D65922 /* Supporting Files */,
 			);
@@ -150,6 +186,147 @@
 				92463CEF18A25EEF00D65922 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92463CFC18A25F3600D65922 /* Az */ = {
+			isa = PBXGroup;
+			children = (
+				92463D0318A2619A00D65922 /* AzumaCharacterManager.h */,
+				92463D0418A2619A00D65922 /* AzumaCharacterManager.m */,
+				92463D0618A261B500D65922 /* AzumaCharacterIamgeView.h */,
+				92463D0718A261B500D65922 /* AzumaCharacterIamgeView.m */,
+				92463D0918A261C900D65922 /* Images */,
+			);
+			name = Az;
+			sourceTree = "<group>";
+		};
+		92463D0918A261C900D65922 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				92463D0A18A261DC00D65922 /* azuma.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		92463D0C18A2641000D65922 /* Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+				92463CFD18A2600500D65922 /* CharacterManager.h */,
+				92463CFE18A2600500D65922 /* CharacterManager.m */,
+				92463D0018A2601D00D65922 /* CharacterIamgeView.h */,
+				92463D0118A2601D00D65922 /* CharacterIamgeView.m */,
+				92B6571718A32C0000A2CCB4 /* dummy.png */,
+			);
+			name = Inheritance;
+			sourceTree = "<group>";
+		};
+		9271271918A2792200F5AC59 /* Yuz */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Yuz;
+			sourceTree = "<group>";
+		};
+		9271271A18A2792800F5AC59 /* Iwas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Iwas;
+			sourceTree = "<group>";
+		};
+		9271271B18A2793000F5AC59 /* Toyo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Toyo;
+			sourceTree = "<group>";
+		};
+		9271271C18A2793700F5AC59 /* Mats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mats;
+			sourceTree = "<group>";
+		};
+		9271271D18A2794100F5AC59 /* Oz */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Oz;
+			sourceTree = "<group>";
+		};
+		9271271E18A2796600F5AC59 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tag;
+			sourceTree = "<group>";
+		};
+		9271271F18A2797300F5AC59 /* Shim */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Shim;
+			sourceTree = "<group>";
+		};
+		9271272018A2797900F5AC59 /* Kai */ = {
+			isa = PBXGroup;
+			children = (
+				9271272518A27E0600F5AC59 /* KaigeCharacterManager.h */,
+				9271272618A27E0600F5AC59 /* KaigeCharacterManager.m */,
+				9271272818A27E7A00F5AC59 /* KaigeCharacterImageView.h */,
+				9271272918A27E7A00F5AC59 /* KaigeCharacterImageView.m */,
+				9271272218A279BF00F5AC59 /* Images */,
+			);
+			name = Kai;
+			sourceTree = "<group>";
+		};
+		9271272118A2798800F5AC59 /* Kob */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Kob;
+			sourceTree = "<group>";
+		};
+		9271272218A279BF00F5AC59 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9271272318A27D8500F5AC59 /* kaige.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9271272B18A2869A00F5AC59 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				92463CD618A25EEF00D65922 /* AppDelegate.h */,
+				92463CD718A25EEF00D65922 /* AppDelegate.m */,
+				92463CD918A25EEF00D65922 /* Main.storyboard */,
+				92463CDC18A25EEF00D65922 /* ViewController.h */,
+				92463CDD18A25EEF00D65922 /* ViewController.m */,
+				92B6571318A312B800A2CCB4 /* Score */,
+				9271272C18A286AF00F5AC59 /* Collision */,
+				92463D0C18A2641000D65922 /* Inheritance */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		9271272C18A286AF00F5AC59 /* Collision */ = {
+			isa = PBXGroup;
+			children = (
+				9271272D18A286CC00F5AC59 /* CollisionManager.h */,
+				9271272E18A286CC00F5AC59 /* CollisionManager.m */,
+			);
+			name = Collision;
+			sourceTree = "<group>";
+		};
+		92B6571318A312B800A2CCB4 /* Score */ = {
+			isa = PBXGroup;
+			children = (
+				92B6571418A312E200A2CCB4 /* ScoreManager.h */,
+				92B6571518A312E200A2CCB4 /* ScoreManager.m */,
+			);
+			name = Score;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +406,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				92463CE018A25EEF00D65922 /* Images.xcassets in Resources */,
+				92463D0B18A261DC00D65922 /* azuma.png in Resources */,
 				92463CD218A25EEF00D65922 /* InfoPlist.strings in Resources */,
+				9271272418A27D8500F5AC59 /* kaige.png in Resources */,
+				92B6571818A32C0000A2CCB4 /* dummy.png in Resources */,
 				92463CDB18A25EEF00D65922 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +429,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92463D0518A2619A00D65922 /* AzumaCharacterManager.m in Sources */,
 				92463CDE18A25EEF00D65922 /* ViewController.m in Sources */,
+				9271272F18A286CC00F5AC59 /* CollisionManager.m in Sources */,
+				9271272A18A27E7A00F5AC59 /* KaigeCharacterImageView.m in Sources */,
+				92463CFF18A2600500D65922 /* CharacterManager.m in Sources */,
+				9271272718A27E0600F5AC59 /* KaigeCharacterManager.m in Sources */,
 				92463CD818A25EEF00D65922 /* AppDelegate.m in Sources */,
+				92B6571618A312E200A2CCB4 /* ScoreManager.m in Sources */,
 				92463CD418A25EEF00D65922 /* main.m in Sources */,
+				92463D0218A2601D00D65922 /* CharacterIamgeView.m in Sources */,
+				92463D0818A261B500D65922 /* AzumaCharacterIamgeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +648,7 @@
 				92463CF818A25EEF00D65922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92463CF918A25EEF00D65922 /* Build configuration list for PBXNativeTarget "TeamWorkSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +657,7 @@
 				92463CFB18A25EEF00D65922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

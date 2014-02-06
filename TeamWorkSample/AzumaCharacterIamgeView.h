@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  AzumaCharacterIamgeView.h
 //  TeamWorkSample
 //
 //  Created by Yukinaga Azuma on 2014/02/05.
 //  Copyright (c) 2014年 Yukinaga Azuma. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CharacterIamgeView.h"
 
-@interface ViewController : UIViewController{
-    NSTimer *sTimer;
-}
+@interface AzumaCharacterIamgeView : CharacterIamgeView
 
 @end

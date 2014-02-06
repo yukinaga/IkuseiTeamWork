@@ -44,6 +44,9 @@
 		9271272F18A286CC00F5AC59 /* CollisionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271272E18A286CC00F5AC59 /* CollisionManager.m */; };
 		92B6571618A312E200A2CCB4 /* ScoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B6571518A312E200A2CCB4 /* ScoreManager.m */; };
 		92B6571818A32C0000A2CCB4 /* dummy.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B6571718A32C0000A2CCB4 /* dummy.png */; };
+		E157420118A36D490065F937 /* IwaseCharacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E15741FE18A36D490065F937 /* IwaseCharacterManager.m */; };
+		E157420218A36D490065F937 /* IwaseCharacterImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E157420018A36D490065F937 /* IwaseCharacterImageView.m */; };
+		E157420518A36F7D0065F937 /* pig1.png in Resources */ = {isa = PBXBuildFile; fileRef = E157420418A36F7D0065F937 /* pig1.png */; };
 		FAC1539118A35C2F002DAFE8 /* KobCharacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1539018A35C2F002DAFE8 /* KobCharacterManager.m */; };
 		FAC1539418A35CDC002DAFE8 /* KobCharacterImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1539318A35CDC002DAFE8 /* KobCharacterImageView.m */; };
 		FAC1539718A35FD2002DAFE8 /* Kob.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC1539618A35FD2002DAFE8 /* Kob.png */; };
@@ -118,6 +121,11 @@
 		92B6571418A312E200A2CCB4 /* ScoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreManager.h; sourceTree = "<group>"; };
 		92B6571518A312E200A2CCB4 /* ScoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreManager.m; sourceTree = "<group>"; };
 		92B6571718A32C0000A2CCB4 /* dummy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummy.png; sourceTree = "<group>"; };
+		E15741FD18A36D490065F937 /* IwaseCharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IwaseCharacterManager.h; sourceTree = "<group>"; };
+		E15741FE18A36D490065F937 /* IwaseCharacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IwaseCharacterManager.m; sourceTree = "<group>"; };
+		E15741FF18A36D490065F937 /* IwaseCharacterImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IwaseCharacterImageView.h; sourceTree = "<group>"; };
+		E157420018A36D490065F937 /* IwaseCharacterImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IwaseCharacterImageView.m; sourceTree = "<group>"; };
+		E157420418A36F7D0065F937 /* pig1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig1.png; sourceTree = "<group>"; };
 		FAC1538F18A35C2F002DAFE8 /* KobCharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KobCharacterManager.h; sourceTree = "<group>"; };
 		FAC1539018A35C2F002DAFE8 /* KobCharacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KobCharacterManager.m; sourceTree = "<group>"; };
 		FAC1539218A35CDC002DAFE8 /* KobCharacterImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KobCharacterImageView.h; sourceTree = "<group>"; };
@@ -291,6 +299,11 @@
 		9271271A18A2792800F5AC59 /* Iwas */ = {
 			isa = PBXGroup;
 			children = (
+				E15741FD18A36D490065F937 /* IwaseCharacterManager.h */,
+				E15741FE18A36D490065F937 /* IwaseCharacterManager.m */,
+				E15741FF18A36D490065F937 /* IwaseCharacterImageView.h */,
+				E157420018A36D490065F937 /* IwaseCharacterImageView.m */,
+				E157420318A36F650065F937 /* Image */,
 			);
 			name = Iwas;
 			sourceTree = "<group>";
@@ -410,6 +423,14 @@
 			name = Score;
 			sourceTree = "<group>";
 		};
+		E157420318A36F650065F937 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E157420418A36F7D0065F937 /* pig1.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		FAC1539518A35F75002DAFE8 /* image */ = {
 			isa = PBXGroup;
 			children = (
@@ -502,6 +523,7 @@
 				9271272418A27D8500F5AC59 /* kaige.png in Resources */,
 				92B6571818A32C0000A2CCB4 /* dummy.png in Resources */,
 				92463CDB18A25EEF00D65922 /* Main.storyboard in Resources */,
+				E157420518A36F7D0065F937 /* pig1.png in Resources */,
 				7CB3C67318A36B5A005CBD75 /* shimazu.png in Resources */,
 				4AEA7DD718A35B00008D7859 /* risuo1.png in Resources */,
 				30AEE7AD18A3677B0014BC88 /* ozawa.png in Resources */,
@@ -524,6 +546,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92463D0518A2619A00D65922 /* AzumaCharacterManager.m in Sources */,
+				E157420218A36D490065F937 /* IwaseCharacterImageView.m in Sources */,
 				4AEA7DD118A35780008D7859 /* YuyaCharacterManager.m in Sources */,
 				92463CDE18A25EEF00D65922 /* ViewController.m in Sources */,
 				108157A618A35D7500B480EB /* YuzawaCharacterImageView.m in Sources */,
@@ -536,6 +559,7 @@
 				4AEA7DD418A357B3008D7859 /* YuyaCharacterImageView.m in Sources */,
 				92463CD818A25EEF00D65922 /* AppDelegate.m in Sources */,
 				7CB3C67518A36B5A005CBD75 /* ShimazuCharacterManager.m in Sources */,
+				E157420118A36D490065F937 /* IwaseCharacterManager.m in Sources */,
 				108157A918A35D8700B480EB /* YuzawaCharacterManager.m in Sources */,
 				92B6571618A312E200A2CCB4 /* ScoreManager.m in Sources */,
 				7CB3C67418A36B5A005CBD75 /* ShimazuCharacterIamgeView.m in Sources */,

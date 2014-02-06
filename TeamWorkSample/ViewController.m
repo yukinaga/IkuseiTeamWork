@@ -16,6 +16,7 @@
 #import "KobCharacterManager.h"
 #import "OzawaCharacterManager.h"
 #import "ShimazuCharacterManager.h"
+#import "IwaseCharacterManager.h"
 
 
 @interface ViewController ()
@@ -39,6 +40,7 @@
     [KobCharacterManager sharedManager].vC = self;
     [OzawaCharacterManager sharedManager].vC = self;
     [ShimazuCharacterManager sharedManager].vC = self;
+    [IwaseCharacterManager sharedManager].vC = self;
 
     
     
@@ -61,6 +63,7 @@
     [[KobCharacterManager sharedManager] doAction];
     [[OzawaCharacterManager sharedManager] doAction];
     [[ShimazuCharacterManager sharedManager] doAction];
+    [[IwaseCharacterManager sharedManager] doAction];
     
     //衝突
     [[CollisionManager sharedManager] collision];

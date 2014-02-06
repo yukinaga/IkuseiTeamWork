@@ -34,6 +34,7 @@
     [AzumaCharacterManager sharedManager].vC = self;
     [KaigeCharacterManager sharedManager].vC = self;
     [YuyaCharacterManager sharedManager].vC=self;
+    
 
     
     

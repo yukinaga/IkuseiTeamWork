@@ -34,7 +34,10 @@
     [AzumaCharacterManager sharedManager].vC = self;
     [KaigeCharacterManager sharedManager].vC = self;
     [YuyaCharacterManager sharedManager].vC=self;
-
+    [YuzawaCharacterManager sharedManager].vC = self;
+    [KobCharacterManager sharedManager].vC = self;
+    [OzawaCharacterManager sharedManager].vC = self;
+    
     
     
     //Delecate of score manager

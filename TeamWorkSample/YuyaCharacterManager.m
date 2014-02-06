@@ -53,7 +53,7 @@ static YuyaCharacterManager *sharedData_ = nil;
         [self.vC.view addSubview:aCIV];
         aCIV.transform = CGAffineTransformMakeScale(0, 0);
         [UIView animateWithDuration:0.5 animations:^{
-            aCIV.transform = CGAffineTransformMakeScale(2.0, 2.0);
+            aCIV.transform = CGAffineTransformMakeScale(0.1, 0.1);
         }completion:^(BOOL finished){
             [self.charaArray addObject:aCIV];
         }];
@@ -87,7 +87,7 @@ static YuyaCharacterManager *sharedData_ = nil;
         aCIV.count++;
         
         //壁で反射
-       // [self reflection:aCIV];
+       [self reflection:aCIV];
         
         //移動
         aCIV.center = CGPointMake(aCIV.center.x+aCIV.speed.dx,

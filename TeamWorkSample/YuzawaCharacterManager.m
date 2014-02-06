@@ -15,7 +15,8 @@
 static YuzawaCharacterManager *sharedData_ = nil;
 
 + (YuzawaCharacterManager *)sharedManager{
-    @synchronized(self){
+    @synchronized
+    (self){
         if (!sharedData_) {
             sharedData_ = [[YuzawaCharacterManager alloc] init];
         }

@@ -12,7 +12,7 @@
 @class  CharacterIamgeView;
 
 @interface CharacterManager : NSObject
-@property(nonatomic) ViewController *vC;
+@property(nonatomic, weak) ViewController *vC;
 @property(nonatomic) NSMutableArray *charaArray;
 @property(nonatomic) CGPoint gPoint;
 @property(nonatomic) UIImage *charaImage;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AEA7DD118A35780008D7859 /* YuyaCharacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA7DD018A35780008D7859 /* YuyaCharacterManager.m */; };
+		4AEA7DD418A357B3008D7859 /* YuyaCharacterImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA7DD318A357B3008D7859 /* YuyaCharacterImageView.m */; };
 		92463CC818A25EEF00D65922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92463CC718A25EEF00D65922 /* Foundation.framework */; };
 		92463CCA18A25EEF00D65922 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92463CC918A25EEF00D65922 /* CoreGraphics.framework */; };
 		92463CCC18A25EEF00D65922 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92463CCB18A25EEF00D65922 /* UIKit.framework */; };
@@ -45,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AEA7DCF18A35780008D7859 /* YuyaCharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuyaCharacterManager.h; sourceTree = "<group>"; };
+		4AEA7DD018A35780008D7859 /* YuyaCharacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuyaCharacterManager.m; sourceTree = "<group>"; };
+		4AEA7DD218A357B3008D7859 /* YuyaCharacterImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuyaCharacterImageView.h; sourceTree = "<group>"; };
+		4AEA7DD318A357B3008D7859 /* YuyaCharacterImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuyaCharacterImageView.m; sourceTree = "<group>"; };
 		92463CC418A25EEF00D65922 /* TeamWorkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamWorkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92463CC718A25EEF00D65922 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		92463CC918A25EEF00D65922 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -244,6 +250,10 @@
 		9271271C18A2793700F5AC59 /* Mats */ = {
 			isa = PBXGroup;
 			children = (
+				4AEA7DCF18A35780008D7859 /* YuyaCharacterManager.h */,
+				4AEA7DD018A35780008D7859 /* YuyaCharacterManager.m */,
+				4AEA7DD218A357B3008D7859 /* YuyaCharacterImageView.h */,
+				4AEA7DD318A357B3008D7859 /* YuyaCharacterImageView.m */,
 			);
 			name = Mats;
 			sourceTree = "<group>";
@@ -430,11 +440,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				92463D0518A2619A00D65922 /* AzumaCharacterManager.m in Sources */,
+				4AEA7DD118A35780008D7859 /* YuyaCharacterManager.m in Sources */,
 				92463CDE18A25EEF00D65922 /* ViewController.m in Sources */,
 				9271272F18A286CC00F5AC59 /* CollisionManager.m in Sources */,
 				9271272A18A27E7A00F5AC59 /* KaigeCharacterImageView.m in Sources */,
 				92463CFF18A2600500D65922 /* CharacterManager.m in Sources */,
 				9271272718A27E0600F5AC59 /* KaigeCharacterManager.m in Sources */,
+				4AEA7DD418A357B3008D7859 /* YuyaCharacterImageView.m in Sources */,
 				92463CD818A25EEF00D65922 /* AppDelegate.m in Sources */,
 				92B6571618A312E200A2CCB4 /* ScoreManager.m in Sources */,
 				92463CD418A25EEF00D65922 /* main.m in Sources */,

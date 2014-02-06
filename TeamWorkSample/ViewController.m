@@ -14,6 +14,7 @@
 #import "YuyaCharacterManager.h"
 #import "YuzawaCharacterManager.h"
 #import "KobCharacterManager.h"
+#import "OzawaCharacterManager.h"
 
 
 @interface ViewController ()
@@ -33,6 +34,8 @@
     [YuyaCharacterManager sharedManager].vC=self;
     [YuzawaCharacterManager sharedManager].vC = self;
     [KobCharacterManager sharedManager].vC = self;
+    [OzawaCharacterManager sharedManager].vC = self;
+
     
     
     //Delecate of score manager
@@ -52,6 +55,8 @@
     [[YuyaCharacterManager sharedManager]doAction];
     [[YuzawaCharacterManager sharedManager]doAction];
     [[KobCharacterManager sharedManager] doAction];
+    [[OzawaCharacterManager sharedManager] doAction];
+
     
     //衝突
     [[CollisionManager sharedManager] collision];

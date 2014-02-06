@@ -1,35 +1,38 @@
 //
-//  YuyaCharacterManager.m
+//  OzawaCharacterManager.m
 //  TeamWorkSample
 //
-//  Created by 松島 祐也 on 2014/02/06.
+//  Created by 小澤寿晴 on 2014/02/06.
 //  Copyright (c) 2014年 Yukinaga Azuma. All rights reserved.
 //
 
-#import "YuyaCharacterManager.h"
-#import "YuyaCharacterImageView.h"
+#import "OzawaCharacterManager.h"
+#import "OzawaCharacterImageView.h"
 #import "ViewController.h"
 #import "ScoreManager.h"
 
-@implementation YuyaCharacterManager
-static YuyaCharacterManager *sharedData_ = nil;
+@implementation OzawaCharacterManager
 
-+ (YuyaCharacterManager *)sharedManager{
+
+static OzawaCharacterManager *sharedData_ = nil;
+
++ (OzawaCharacterManager *)sharedManager{
     @synchronized(self){
         if (!sharedData_) {
-            sharedData_ = [[YuyaCharacterManager alloc] init];
+            sharedData_ = [[OzawaCharacterManager alloc] init];
         }
     }
     return sharedData_;
 }
+
 - (id)init
 {
     self = [super init];
     if (self) {
         //発生地点
-        self.gPoint = CGPointMake(ScreenW*0.01, ScreenH*0.99);
+        self.gPoint = CGPointMake(ScreenW*0.15, ScreenH*0.15);
         //スコアに登録
-        self.charaImage = [UIImage imageNamed:@"risuo1.png"];
+        self.charaImage = [UIImage imageNamed:@"ozawa.png"];
         self.charaDataArray = @[self.charaImage, self.charaArray];
         [[ScoreManager sharedManager].allScoreArray addObject:self.charaDataArray];
         //発生カウント
@@ -41,11 +44,11 @@ static YuyaCharacterManager *sharedData_ = nil;
 //発生頻度
 -(void)doAction{
     static const int generationInterval = 40;
-    static const int charaSpeed = 1;
+    static const int charaSpeed = 1.0;
     
     //発生
     if(generationCount > generationInterval){
-        YuyaCharacterImageView *aCIV = [YuyaCharacterImageView new];
+        OzawaCharacterImageView *aCIV = [OzawaCharacterImageView new];
         aCIV.image = self.charaImage;
         aCIV.frame = CGRectMake(0, 0, ScreenW/15.0, ScreenW/15.0);
         aCIV.center = self.gPoint;
@@ -53,7 +56,7 @@ static YuyaCharacterManager *sharedData_ = nil;
         [self.vC.view addSubview:aCIV];
         aCIV.transform = CGAffineTransformMakeScale(0, 0);
         [UIView animateWithDuration:0.5 animations:^{
-            aCIV.transform = CGAffineTransformMakeScale(2.0, 2.0);
+            aCIV.transform = CGAffineTransformMakeScale(1.0, 1.0);
         }completion:^(BOOL finished){
             [self.charaArray addObject:aCIV];
         }];
@@ -62,7 +65,7 @@ static YuyaCharacterManager *sharedData_ = nil;
     generationCount++;
     
     //移動
-    for(YuyaCharacterImageView *aCIV in self.charaArray){
+    for(OzawaCharacterImageView *aCIV in self.charaArray){
         
         if (aCIV.isDead) {
             continue;
@@ -80,21 +83,16 @@ static YuyaCharacterManager *sharedData_ = nil;
             aCIV.count = 0;
             continue;
         }
-        
-        
-        
-
         aCIV.count++;
         
         //壁で反射
-       // [self reflection:aCIV];
+        [self reflection:aCIV];
         
         //移動
         aCIV.center = CGPointMake(aCIV.center.x+aCIV.speed.dx,
                                   aCIV.center.y+aCIV.speed.dy);
     }
 }
-
 
 
 @end

@@ -32,6 +32,9 @@
 		9271272F18A286CC00F5AC59 /* CollisionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271272E18A286CC00F5AC59 /* CollisionManager.m */; };
 		92B6571618A312E200A2CCB4 /* ScoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B6571518A312E200A2CCB4 /* ScoreManager.m */; };
 		92B6571818A32C0000A2CCB4 /* dummy.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B6571718A32C0000A2CCB4 /* dummy.png */; };
+		FAC1539118A35C2F002DAFE8 /* KobCharacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1539018A35C2F002DAFE8 /* KobCharacterManager.m */; };
+		FAC1539418A35CDC002DAFE8 /* KobCharacterImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1539318A35CDC002DAFE8 /* KobCharacterImageView.m */; };
+		FAC1539718A35FD2002DAFE8 /* Kob.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC1539618A35FD2002DAFE8 /* Kob.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,11 @@
 		92B6571418A312E200A2CCB4 /* ScoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreManager.h; sourceTree = "<group>"; };
 		92B6571518A312E200A2CCB4 /* ScoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreManager.m; sourceTree = "<group>"; };
 		92B6571718A32C0000A2CCB4 /* dummy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummy.png; sourceTree = "<group>"; };
+		FAC1538F18A35C2F002DAFE8 /* KobCharacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KobCharacterManager.h; sourceTree = "<group>"; };
+		FAC1539018A35C2F002DAFE8 /* KobCharacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KobCharacterManager.m; sourceTree = "<group>"; };
+		FAC1539218A35CDC002DAFE8 /* KobCharacterImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KobCharacterImageView.h; sourceTree = "<group>"; };
+		FAC1539318A35CDC002DAFE8 /* KobCharacterImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KobCharacterImageView.m; sourceTree = "<group>"; };
+		FAC1539618A35FD2002DAFE8 /* Kob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kob.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +292,11 @@
 		9271272118A2798800F5AC59 /* Kob */ = {
 			isa = PBXGroup;
 			children = (
+				FAC1538F18A35C2F002DAFE8 /* KobCharacterManager.h */,
+				FAC1539018A35C2F002DAFE8 /* KobCharacterManager.m */,
+				FAC1539218A35CDC002DAFE8 /* KobCharacterImageView.h */,
+				FAC1539318A35CDC002DAFE8 /* KobCharacterImageView.m */,
+				FAC1539518A35F75002DAFE8 /* image */,
 			);
 			name = Kob;
 			sourceTree = "<group>";
@@ -327,6 +340,14 @@
 				92B6571518A312E200A2CCB4 /* ScoreManager.m */,
 			);
 			name = Score;
+			sourceTree = "<group>";
+		};
+		FAC1539518A35F75002DAFE8 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1539618A35FD2002DAFE8 /* Kob.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +426,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC1539718A35FD2002DAFE8 /* Kob.png in Resources */,
 				92463CE018A25EEF00D65922 /* Images.xcassets in Resources */,
 				92463D0B18A261DC00D65922 /* azuma.png in Resources */,
 				92463CD218A25EEF00D65922 /* InfoPlist.strings in Resources */,
@@ -434,9 +456,11 @@
 				9271272F18A286CC00F5AC59 /* CollisionManager.m in Sources */,
 				9271272A18A27E7A00F5AC59 /* KaigeCharacterImageView.m in Sources */,
 				92463CFF18A2600500D65922 /* CharacterManager.m in Sources */,
+				FAC1539418A35CDC002DAFE8 /* KobCharacterImageView.m in Sources */,
 				9271272718A27E0600F5AC59 /* KaigeCharacterManager.m in Sources */,
 				92463CD818A25EEF00D65922 /* AppDelegate.m in Sources */,
 				92B6571618A312E200A2CCB4 /* ScoreManager.m in Sources */,
+				FAC1539118A35C2F002DAFE8 /* KobCharacterManager.m in Sources */,
 				92463CD418A25EEF00D65922 /* main.m in Sources */,
 				92463D0218A2601D00D65922 /* CharacterIamgeView.m in Sources */,
 				92463D0818A261B500D65922 /* AzumaCharacterIamgeView.m in Sources */,

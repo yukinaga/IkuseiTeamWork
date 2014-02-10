@@ -20,7 +20,7 @@
 
 @implementation ViewController
 
-//
+//kaigeです
 - (void)viewDidLoad
 {
     [super viewDidLoad];

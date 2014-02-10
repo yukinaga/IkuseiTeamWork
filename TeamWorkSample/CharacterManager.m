@@ -8,7 +8,6 @@
 
 #import "CharacterManager.h"
 #import "CharacterIamgeView.h"
-#import "CollisionManager.h"
 #import "ScoreManager.h"
 
 @implementation CharacterManager
@@ -19,11 +18,10 @@
     if (self) {
         //キャラのイメージを格納する配列
         _charaArray = [NSMutableArray new];
-        [[CollisionManager sharedManager].allCharaArray addObject:_charaArray];
-        
         //キャラの画像と上記の配列を配列にしてScoreManagerに渡す
-        _charaDataArray = [NSMutableArray new];
-
+        self.charaImage = [UIImage imageNamed:@"dummy.png"];
+        self.charaDataArray = [@[[UIImage imageNamed:@"dummy.png"], self.charaArray] mutableCopy];
+        [[ScoreManager sharedManager].allScoreArray addObject:self.charaDataArray];
     }
     return self;
 }

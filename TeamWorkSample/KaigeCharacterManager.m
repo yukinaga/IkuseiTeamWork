@@ -10,6 +10,7 @@
 #import "KaigeCharacterImageView.h"
 #import "ViewController.h"
 #import "ScoreManager.h"
+#import "CollisionManager.h"
 
 @implementation KaigeCharacterManager
 
@@ -32,20 +33,21 @@ static KaigeCharacterManager *sharedData_ = nil;
         self.gPoint = CGPointMake(ScreenW*0.75, ScreenH*0.75);
         //スコアに登録
         self.charaImage = [UIImage imageNamed:@"kaige.png"];
-        self.charaDataArray = @[self.charaImage, self.charaArray];
-        [[ScoreManager sharedManager].allScoreArray addObject:self.charaDataArray];
+        self.charaDataArray[0] = self.charaImage;
+        //衝突あり
+        [[CollisionManager sharedManager].allCharaArray addObject:self.charaArray];
         //発生カウント
         generationCount = 0;
     }
     return self;
 }
 
-//発生頻度
+//発生
 -(void)doAction{
     static const int generationInterval = 40;
     static const int charaSpeed = 1.0;
     
-    //発生
+    //発生頻度
     if(generationCount > generationInterval){
         KaigeCharacterImageView *aCIV = [KaigeCharacterImageView new];
         aCIV.image = self.charaImage;

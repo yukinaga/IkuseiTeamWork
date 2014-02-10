@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TeamWorkSample.xcodeproj">
+      location = "self:IkuseiTeamWork.xcodeproj">
    </FileRef>
 </Workspace>

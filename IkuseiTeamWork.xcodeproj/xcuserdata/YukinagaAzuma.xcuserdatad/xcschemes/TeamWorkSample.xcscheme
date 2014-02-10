@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "92463CC318A25EEF00D65922"
-               BuildableName = "TeamWorkSample.app"
-               BlueprintName = "TeamWorkSample"
-               ReferencedContainer = "container:TeamWorkSample.xcodeproj">
+               BuildableName = "IkuseiTeamWork.app"
+               BlueprintName = "IkuseiTeamWork"
+               ReferencedContainer = "container:IkuseiTeamWork.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "92463CE418A25EEF00D65922"
-               BuildableName = "TeamWorkSampleTests.xctest"
-               BlueprintName = "TeamWorkSampleTests"
-               ReferencedContainer = "container:TeamWorkSample.xcodeproj">
+               BuildableName = "IkuseiTeamWorkTests.xctest"
+               BlueprintName = "IkuseiTeamWorkTests"
+               ReferencedContainer = "container:IkuseiTeamWork.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "92463CC318A25EEF00D65922"
-            BuildableName = "TeamWorkSample.app"
-            BlueprintName = "TeamWorkSample"
-            ReferencedContainer = "container:TeamWorkSample.xcodeproj">
+            BuildableName = "IkuseiTeamWork.app"
+            BlueprintName = "IkuseiTeamWork"
+            ReferencedContainer = "container:IkuseiTeamWork.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "92463CC318A25EEF00D65922"
-            BuildableName = "TeamWorkSample.app"
-            BlueprintName = "TeamWorkSample"
-            ReferencedContainer = "container:TeamWorkSample.xcodeproj">
+            BuildableName = "IkuseiTeamWork.app"
+            BlueprintName = "IkuseiTeamWork"
+            ReferencedContainer = "container:IkuseiTeamWork.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "92463CC318A25EEF00D65922"
-            BuildableName = "TeamWorkSample.app"
-            BlueprintName = "TeamWorkSample"
-            ReferencedContainer = "container:TeamWorkSample.xcodeproj">
+            BuildableName = "IkuseiTeamWork.app"
+            BlueprintName = "IkuseiTeamWork"
+            ReferencedContainer = "container:IkuseiTeamWork.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

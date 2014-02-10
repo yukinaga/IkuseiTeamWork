@@ -16,7 +16,7 @@
 @property(nonatomic) NSMutableArray *charaArray;
 @property(nonatomic) CGPoint gPoint;
 @property(nonatomic) UIImage *charaImage;
-@property(nonatomic) NSArray *charaDataArray;
+@property(nonatomic) NSMutableArray *charaDataArray;
 
 -(void)reflection:(CharacterIamgeView *)view;
 

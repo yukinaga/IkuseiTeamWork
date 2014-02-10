@@ -11,17 +11,10 @@
 #import "ScoreManager.h"
 #import "AzumaCharacterManager.h"
 #import "KaigeCharacterManager.h"
-#import "YuyaCharacterManager.h"
-#import "YuzawaCharacterManager.h"
-#import "KobCharacterManager.h"
-#import "OzawaCharacterManager.h"
-#import "ShimazuCharacterManager.h"
-#import "IwaseCharacterManager.h"
+#import "HeartManager.h"
 
 
 @interface ViewController ()
-
-
 
 @end
 
@@ -29,21 +22,14 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];//どうも、Meer下です。
+    [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
     //Delegate of characters
     [AzumaCharacterManager sharedManager].vC = self;
     [KaigeCharacterManager sharedManager].vC = self;
-    [YuyaCharacterManager sharedManager].vC=self;
-    [YuzawaCharacterManager sharedManager].vC = self;
-    [KobCharacterManager sharedManager].vC = self;
-    [OzawaCharacterManager sharedManager].vC = self;
-    [ShimazuCharacterManager sharedManager].vC = self;
-    [IwaseCharacterManager sharedManager].vC = self;
+    [HeartManager sharedManager].vC = self;
 
-    
-    
     //Delecate of score manager
     [ScoreManager sharedManager].vC = self;
     
@@ -58,13 +44,8 @@
     //各キャラのムーブ
     [[AzumaCharacterManager sharedManager] doAction];
     [[KaigeCharacterManager sharedManager] doAction];
-    [[YuyaCharacterManager sharedManager]doAction];
-    [[YuzawaCharacterManager sharedManager]doAction];
-    [[KobCharacterManager sharedManager] doAction];
-    [[OzawaCharacterManager sharedManager] doAction];
-    [[ShimazuCharacterManager sharedManager] doAction];
-    [[IwaseCharacterManager sharedManager] doAction];
-    
+    [[HeartManager sharedManager] doAction];
+
     //衝突
     [[CollisionManager sharedManager] collision];
     

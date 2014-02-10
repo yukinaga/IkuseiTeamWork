@@ -41,6 +41,13 @@
                                             selector:@selector(do:)
                                             userInfo:nil
                                              repeats:YES];
+    
+    UIImage *background = [UIImage imageNamed:@"background.jpeg"];
+    self.view
+    .backgroundColor = [UIColor colorWithPatternImage:background];
+    
+    
+    
 }
 
 //yuzawaです,yuzawaです

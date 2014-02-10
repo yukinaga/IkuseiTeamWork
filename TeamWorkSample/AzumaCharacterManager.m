@@ -32,7 +32,7 @@ static AzumaCharacterManager *sharedData_ = nil;
         //発生地点
         self.gPoint = CGPointMake(ScreenW*0.25, ScreenH*0.25);
         //スコアに登録
-        self.charaImage = [UIImage imageNamed:@"azuma.png"];
+        self.charaImage = [UIImage imageNamed:@"images.png"];
         self.charaDataArray[0] = self.charaImage;
         //衝突あり
         [[CollisionManager sharedManager].allCharaArray addObject:self.charaArray];

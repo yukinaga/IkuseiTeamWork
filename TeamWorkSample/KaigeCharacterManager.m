@@ -32,7 +32,7 @@ static KaigeCharacterManager *sharedData_ = nil;
         //発生地点
         self.gPoint = CGPointMake(ScreenW*0.75, ScreenH*0.75);
         //スコアに登録
-        self.charaImage = [UIImage imageNamed:@"kaige.png"];
+        self.charaImage = [UIImage imageNamed:@"images-2.png"];
         self.charaDataArray[0] = self.charaImage;
         //衝突あり
         [[CollisionManager sharedManager].allCharaArray addObject:self.charaArray];

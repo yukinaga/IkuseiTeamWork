@@ -41,7 +41,7 @@
                                              repeats:YES];
 }
 
-//yuzawaです
+//yuzawaです,yuzawaです
 
 -(void)do:(NSTimer *)timer{
     //各キャラのムーブ

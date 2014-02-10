@@ -12,6 +12,7 @@
 #import "AzumaCharacterManager.h"
 #import "KaigeCharacterManager.h"
 #import "HeartManager.h"
+#import "StarManager.h"
 
 
 @interface ViewController ()
@@ -32,6 +33,7 @@
     [AzumaCharacterManager sharedManager].vC = self;
     [KaigeCharacterManager sharedManager].vC = self;
     [HeartManager sharedManager].vC = self;
+    [StarManager sharedManager].vC = self;
 
     //Delecate of score manager
     [ScoreManager sharedManager].vC = self;
@@ -57,6 +59,7 @@
     [[AzumaCharacterManager sharedManager] doAction];
     [[KaigeCharacterManager sharedManager] doAction];
     [[HeartManager sharedManager] doAction];
+    [[StarManager sharedManager] doAction];
 
     //衝突
     [[CollisionManager sharedManager] collision];

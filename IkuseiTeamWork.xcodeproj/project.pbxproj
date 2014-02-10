@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10D2A3EB18A89D5E0090421B /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D2A3EA18A89D5E0090421B /* images.png */; };
-		10D2A3ED18A89D670090421B /* images-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D2A3EC18A89D670090421B /* images-2.png */; };
-		10D2A3F218A89E310090421B /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10D2A3F118A89E310090421B /* background.jpeg */; };
 		92463CC818A25EEF00D65922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92463CC718A25EEF00D65922 /* Foundation.framework */; };
 		92463CCA18A25EEF00D65922 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92463CC918A25EEF00D65922 /* CoreGraphics.framework */; };
 		92463CCC18A25EEF00D65922 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92463CCB18A25EEF00D65922 /* UIKit.framework */; };
@@ -38,6 +35,9 @@
 		92DC53F018A879AF002A11B7 /* HeartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DC53EF18A879AF002A11B7 /* HeartManager.m */; };
 		92DC53F218A879C5002A11B7 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DC53F118A879C5002A11B7 /* heart.png */; };
 		92DC53F718A87B31002A11B7 /* HeartImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DC53F618A87B31002A11B7 /* HeartImageView.m */; };
+		E16B55DC18A89CAC0029A39C /* StarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E16B55DB18A89CAC0029A39C /* StarManager.m */; };
+		E16B55DF18A89D560029A39C /* StarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E16B55DE18A89D560029A39C /* StarImageView.m */; };
+		E16B55E118A89E270029A39C /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = E16B55E018A89E270029A39C /* star2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10D2A3EA18A89D5E0090421B /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
-		10D2A3EC18A89D670090421B /* images-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images-2.png"; sourceTree = "<group>"; };
-		10D2A3F118A89E310090421B /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
 		92463CC418A25EEF00D65922 /* IkuseiTeamWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IkuseiTeamWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92463CC718A25EEF00D65922 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		92463CC918A25EEF00D65922 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -97,6 +94,11 @@
 		92DC53F118A879C5002A11B7 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		92DC53F518A87B31002A11B7 /* HeartImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartImageView.h; sourceTree = "<group>"; };
 		92DC53F618A87B31002A11B7 /* HeartImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartImageView.m; sourceTree = "<group>"; };
+		E16B55DA18A89CAC0029A39C /* StarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarManager.h; sourceTree = "<group>"; };
+		E16B55DB18A89CAC0029A39C /* StarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarManager.m; sourceTree = "<group>"; };
+		E16B55DD18A89D560029A39C /* StarImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarImageView.h; sourceTree = "<group>"; };
+		E16B55DE18A89D560029A39C /* StarImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarImageView.m; sourceTree = "<group>"; };
+		E16B55E018A89E270029A39C /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,14 +125,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10D2A3EE18A89DCD0090421B /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				10D2A3F118A89E310090421B /* background.jpeg */,
-			);
-			name = Image;
-			sourceTree = "<group>";
-		};
 		92463CBB18A25EEF00D65922 = {
 			isa = PBXGroup;
 			children = (
@@ -218,7 +212,6 @@
 		92463D0918A261C900D65922 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				10D2A3EA18A89D5E0090421B /* images.png */,
 				92463D0A18A261DC00D65922 /* azuma.png */,
 			);
 			name = Images;
@@ -251,7 +244,6 @@
 		9271272218A279BF00F5AC59 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				10D2A3EC18A89D670090421B /* images-2.png */,
 				9271272318A27D8500F5AC59 /* kaige.png */,
 			);
 			name = Images;
@@ -265,7 +257,6 @@
 				92463CD918A25EEF00D65922 /* Main.storyboard */,
 				92463CDC18A25EEF00D65922 /* ViewController.h */,
 				92463CDD18A25EEF00D65922 /* ViewController.m */,
-				10D2A3EE18A89DCD0090421B /* Image */,
 				92B6571318A312B800A2CCB4 /* Score */,
 				9271272C18A286AF00F5AC59 /* Collision */,
 				92463D0C18A2641000D65922 /* Inheritance */,
@@ -294,6 +285,7 @@
 		92DC53EA18A8782D002A11B7 /* Extras */ = {
 			isa = PBXGroup;
 			children = (
+				E16B55D918A89C650029A39C /* Star */,
 				92DC53F418A87AFC002A11B7 /* Heart */,
 			);
 			name = Extras;
@@ -317,6 +309,26 @@
 				92DC53F318A87AF0002A11B7 /* Images */,
 			);
 			name = Heart;
+			sourceTree = "<group>";
+		};
+		E16B55D918A89C650029A39C /* Star */ = {
+			isa = PBXGroup;
+			children = (
+				E16B55DA18A89CAC0029A39C /* StarManager.h */,
+				E16B55DB18A89CAC0029A39C /* StarManager.m */,
+				E16B55DD18A89D560029A39C /* StarImageView.h */,
+				E16B55DE18A89D560029A39C /* StarImageView.m */,
+				E16B55E218A89E340029A39C /* Image */,
+			);
+			name = Star;
+			sourceTree = "<group>";
+		};
+		E16B55E218A89E340029A39C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E16B55E018A89E270029A39C /* star2.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,16 +407,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D2A3ED18A89D670090421B /* images-2.png in Resources */,
+				E16B55E118A89E270029A39C /* star2.png in Resources */,
 				92463CE018A25EEF00D65922 /* Images.xcassets in Resources */,
 				92463D0B18A261DC00D65922 /* azuma.png in Resources */,
 				92463CD218A25EEF00D65922 /* InfoPlist.strings in Resources */,
-				10D2A3EB18A89D5E0090421B /* images.png in Resources */,
 				9271272418A27D8500F5AC59 /* kaige.png in Resources */,
 				92DC53F218A879C5002A11B7 /* heart.png in Resources */,
 				92B6571818A32C0000A2CCB4 /* dummy.png in Resources */,
 				92463CDB18A25EEF00D65922 /* Main.storyboard in Resources */,
-				10D2A3F218A89E310090421B /* background.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,9 +436,11 @@
 				92463D0518A2619A00D65922 /* AzumaCharacterManager.m in Sources */,
 				92463CDE18A25EEF00D65922 /* ViewController.m in Sources */,
 				92DC53F718A87B31002A11B7 /* HeartImageView.m in Sources */,
+				E16B55DC18A89CAC0029A39C /* StarManager.m in Sources */,
 				9271272F18A286CC00F5AC59 /* CollisionManager.m in Sources */,
 				9271272A18A27E7A00F5AC59 /* KaigeCharacterImageView.m in Sources */,
 				92DC53F018A879AF002A11B7 /* HeartManager.m in Sources */,
+				E16B55DF18A89D560029A39C /* StarImageView.m in Sources */,
 				92463CFF18A2600500D65922 /* CharacterManager.m in Sources */,
 				9271272718A27E0600F5AC59 /* KaigeCharacterManager.m in Sources */,
 				92463CD818A25EEF00D65922 /* AppDelegate.m in Sources */,

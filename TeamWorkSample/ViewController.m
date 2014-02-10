@@ -20,7 +20,9 @@
 
 @implementation ViewController
 
-//
+
+//iwasedesu
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

@@ -14,6 +14,7 @@
 
 @property(nonatomic) NSMutableArray *allScoreArray;
 @property(nonatomic, readonly) NSMutableArray *displayedObjectsArray;
+@property(nonatomic, readonly) NSMutableArray *barArray;
 @property(nonatomic) UIViewController *vC;
 
 + (ScoreManager *)sharedManager;

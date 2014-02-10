@@ -27,6 +27,7 @@ static ScoreManager *sharedData_ = nil;
     if (self) {
         _allScoreArray = [NSMutableArray new];
         _displayedObjectsArray = [NSMutableArray new];
+        _barArray = [NSMutableArray new];
     }
     return self;
 }
@@ -38,6 +39,7 @@ static ScoreManager *sharedData_ = nil;
         }
         [_displayedObjectsArray removeAllObjects];
         int i = 0;
+        int sum = 0;
         for (NSArray *cArray in _allScoreArray) {
             
             UIImageView *iconView = [UIImageView new];
@@ -56,8 +58,30 @@ static ScoreManager *sharedData_ = nil;
             
             [_displayedObjectsArray addObject:numLabel];
             
+            sum += [cArray[1] count];
+
             i++;
         }
+        if (sum>0) {
+            for (UIView *view in _barArray) {
+                [view removeFromSuperview];
+            }
+            [_barArray removeAllObjects];
+            UIView *baseView = [UIView new];
+            baseView.backgroundColor = [UIColor greenColor];
+            baseView.frame = CGRectMake(150, 30, 150, 20);
+            [_vC.view addSubview:baseView];
+            [_barArray addObject:baseView];
+            
+            UIView *leftBarView = [UIView new];
+            leftBarView.backgroundColor = [UIColor grayColor];
+            float width = 150.0*[_allScoreArray[0][1] count]/sum;
+            leftBarView.frame = CGRectMake(150, 30, width, 20);
+            [_vC.view addSubview:leftBarView];
+            [_barArray addObject:leftBarView];
+        }
+
+        
         count = 0;
     }
     count++;

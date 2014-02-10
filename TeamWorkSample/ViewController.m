@@ -40,6 +40,8 @@
                                              repeats:YES];
 }
 
+//yuzawaです
+
 -(void)do:(NSTimer *)timer{
     //各キャラのムーブ
     [[AzumaCharacterManager sharedManager] doAction];
